@@ -17,8 +17,6 @@ import lombok.experimental.Accessors;
  */
 @Data
 @Accessors(chain = true)
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
 public class Address {
     private Long id;
